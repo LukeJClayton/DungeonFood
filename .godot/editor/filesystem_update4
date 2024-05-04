@@ -1,0 +1,9 @@
+res://Game.tscn
+res://Characters/Hitbox.gd
+res://Characters/Player/Player.tscn
+res://Characters/Character.gd
+res://Characters/Player/Player.gd
+res://Characters/Enemies/Bat/Bat.tscn
+res://Characters/Enemies/Bat/BatFSM.gd
+res://Characters/Enemies/Bat/Bat.gd
+res://Characters/Player/PlayerFSM.gd
