@@ -3,10 +3,16 @@
 extends Character
 class_name Enemy
 
+const ITEM_SCENES: Dictionary = {
+	"Meat": preload("res://Items/Meat/Meat.tscn")
+}
+
 @onready var player: CharacterBody2D = get_tree().current_scene.get_node("Player")
 @onready var path_timer: Timer = get_node("PathTimer")
 @onready var navigation_agent: NavigationAgent2D = get_node("NavigationAgent2D")
 
+@export var dropItem: bool = false
+@export var itemType: String = "Meat"
 
 func _ready() -> void:
 	var __ = connect("tree_exited", Callable(get_parent(), "_on_enemy_killed"))
@@ -29,6 +35,16 @@ func _on_path_timer_timeout() -> void:
 	else:
 		path_timer.stop()
 		mov_direction = Vector2.ZERO
+		
+func death() -> void:
+	if dropItem:
+		var item: Item
+		if ITEM_SCENES[itemType]:
+			item = ITEM_SCENES[itemType].instantiate()
+
+			item.position = position;
+			
+			get_parent().call_deferred("add_child", item)
 
 
 func _get_path_to_player() -> void:

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctk0q7ipsk2w"]
+
+[ext_resource type="Script" path="res://Items/Item.gd" id="1_dhkw7"]
+
+[node name="Item" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_dhkw7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_item_body_entered"]

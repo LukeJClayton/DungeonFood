@@ -1,2 +1,9 @@
+Node2D
+Node
+Item
+Area2D
 CollisionShape2D
+Sprite2D
+TextureProgressBar
+CanvasLayer
 Hitbox

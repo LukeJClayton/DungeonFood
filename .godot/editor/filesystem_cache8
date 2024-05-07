@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714676209
-Game.tscn::PackedScene::6295576473315854782::1714676171::0::1::::<><>::uid://burgvxxwjedyd::::res://Art/o_lobster/full tilemap.png<>uid://n1nl3nxm5tas::::res://Characters/Player/Player.tscn<>uid://di33v8cjf7cvb::::res://Characters/Enemies/Bat/Bat.tscn
+::res://::1715002289
+Game.tscn::PackedScene::6295576473315854782::1715002289::0::1::::<><>::uid://burgvxxwjedyd::::res://Art/o_lobster/full tilemap.png<>uid://dis4e3dc7fpiv::::res://Art/o_lobster/ui (new)/health_ui.png<>res://UI/UI.gd<>uid://ceghpqfo8xr4s::::res://Art/o_lobster/ui (new)/progress bar.png<>uid://n1nl3nxm5tas::::res://Characters/Player/Player.tscn<>uid://di33v8cjf7cvb::::res://Characters/Enemies/Bat/Bat.tscn
 icon.svg::CompressedTexture2D::8766006778427611817::1714676171::1714676211::1::::<><>::
 ::res://Art/::1714676171
-::res://Art/o_lobster/::1714676171
+::res://Art/o_lobster/::1714676211
 full spritesheet.png::CompressedTexture2D::8452218939451547183::1714676171::1714676211::1::::<><>::
 full tilemap.png::CompressedTexture2D::3825695026480689263::1714676171::1714676211::1::::<><>::
 README.txt::TextFile::-1::1714676171::0::1::::<><>::
-::res://Art/o_lobster/effects (new)/::1714676171
+::res://Art/o_lobster/effects (new)/::1714676211
 enemy_afterdead_explosion_anim_f0.png::CompressedTexture2D::7654948737704768096::1714676171::1714676211::1::::<><>::
 enemy_afterdead_explosion_anim_f1.png::CompressedTexture2D::5400196109774005680::1714676171::1714676211::1::::<><>::
 enemy_afterdead_explosion_anim_f2.png::CompressedTexture2D::2185882796488685693::1714676171::1714676211::1::::<><>::
@@ -30,13 +30,13 @@ slash_effect_anim_f1.png::CompressedTexture2D::949580593247909221::1714676171::1
 slash_effect_anim_f2.png::CompressedTexture2D::994828816203443115::1714676171::1714676211::1::::<><>::
 slash_effect_anim_spritesheet.png::CompressedTexture2D::3088166313598093017::1714676171::1714676211::1::::<><>::
 ::res://Art/o_lobster/enemies/::1714676171
-::res://Art/o_lobster/enemies/flying creature/::1714676171
+::res://Art/o_lobster/enemies/flying creature/::1714676211
 fly_anim_f0.png::CompressedTexture2D::6679304996974528584::1714676171::1714676211::1::::<><>::
 fly_anim_f1.png::CompressedTexture2D::7755690596969155684::1714676171::1714676211::1::::<><>::
 fly_anim_f2.png::CompressedTexture2D::659384977052802500::1714676171::1714676211::1::::<><>::
 fly_anim_f3.png::CompressedTexture2D::4300474439153885946::1714676171::1714676211::1::::<><>::
 fly_anim_spritesheet.png::CompressedTexture2D::1621591127510932932::1714676171::1714676211::1::::<><>::
-::res://Art/o_lobster/enemies/goblin/::1714676171
+::res://Art/o_lobster/enemies/goblin/::1714676211
 goblin_idle_anim_f0.png::CompressedTexture2D::4821573338975938779::1714676171::1714676211::1::::<><>::
 goblin_idle_anim_f1.png::CompressedTexture2D::5671450246398687448::1714676171::1714676211::1::::<><>::
 goblin_idle_anim_f2.png::CompressedTexture2D::2349502125698459551::1714676171::1714676211::1::::<><>::
@@ -52,7 +52,7 @@ goblin_run_anim_f3.png::CompressedTexture2D::3870811262922451512::1714676171::17
 goblin_run_anim_f4.png::CompressedTexture2D::2677682113822529731::1714676171::1714676211::1::::<><>::
 goblin_run_anim_f5.png::CompressedTexture2D::2266540367477501129::1714676171::1714676211::1::::<><>::
 goblin_run_spritesheet.png::CompressedTexture2D::6115059776738037883::1714676171::1714676211::1::::<><>::
-::res://Art/o_lobster/enemies/slime/::1714676171
+::res://Art/o_lobster/enemies/slime/::1714676211
 slime_idle_anim_f0.png::CompressedTexture2D::7539759038251532404::1714676171::1714676211::1::::<><>::
 slime_idle_anim_f1.png::CompressedTexture2D::3883715531370818150::1714676171::1714676211::1::::<><>::
 slime_idle_anim_f2.png::CompressedTexture2D::7668894023200686676::1714676171::1714676211::1::::<><>::
@@ -68,7 +68,7 @@ slime_run_anim_f4.png::CompressedTexture2D::8569910259285718121::1714676171::171
 slime_run_anim_f5.png::CompressedTexture2D::1166710630179382845::1714676171::1714676211::1::::<><>::
 slime_run_spritesheeet.png::CompressedTexture2D::4692148218146876526::1714676171::1714676211::1::::<><>::
 ::res://Art/o_lobster/heroes/::1714676171
-::res://Art/o_lobster/heroes/knight/::1714676171
+::res://Art/o_lobster/heroes/knight/::1714676211
 knight_idle_anim_f0.png::CompressedTexture2D::4845822415978377672::1714676171::1714676211::1::::<><>::
 knight_idle_anim_f1.png::CompressedTexture2D::3132027162833344846::1714676171::1714676211::1::::<><>::
 knight_idle_anim_f2.png::CompressedTexture2D::3818462265359940406::1714676171::1714676211::1::::<><>::
@@ -84,7 +84,7 @@ knight_run_anim_f4.png::CompressedTexture2D::5920153161705251959::1714676171::17
 knight_run_anim_f5.png::CompressedTexture2D::9005131160003639643::1714676171::1714676211::1::::<><>::
 knight_run_spritesheet.png::CompressedTexture2D::201203781169670134::1714676171::1714676211::1::::<><>::
 weapon_sword_1.png::CompressedTexture2D::8238658010488778432::1714676171::1714676211::1::::<><>::
-::res://Art/o_lobster/props_itens/::1714676171
+::res://Art/o_lobster/props_itens/::1714676211
 bag_coins.png::CompressedTexture2D::3997481847007051321::1714676171::1714676211::1::::<><>::
 barrel.png::CompressedTexture2D::5974037998864341863::1714676171::1714676211::1::::<><>::
 bomb_anim_f0.png::CompressedTexture2D::7204920217794588985::1714676171::1714676211::1::::<><>::
@@ -126,7 +126,7 @@ torch_anim_f4.png::CompressedTexture2D::7729643664871380648::1714676171::1714676
 torch_anim_f5.png::CompressedTexture2D::5126763619575122052::1714676171::1714676210::1::::<><>::
 torch_spritesheet.png::CompressedTexture2D::1516805166875650073::1714676171::1714676210::1::::<><>::
 ::res://Art/o_lobster/tiles/::1714676171
-::res://Art/o_lobster/tiles/floor/::1714676171
+::res://Art/o_lobster/tiles/floor/::1714676210
 door_floor.png::CompressedTexture2D::4726301888260009226::1714676171::1714676210::1::::<><>::
 floor_1.png::CompressedTexture2D::4911596714156746387::1714676171::1714676210::1::::<><>::
 floor_2.png::CompressedTexture2D::7450282296339493258::1714676171::1714676210::1::::<><>::
@@ -158,7 +158,7 @@ spikes_anim_f8.png::CompressedTexture2D::23592957754665955::1714676171::17146762
 spikes_anim_f9.png::CompressedTexture2D::6234284064562535987::1714676171::1714676210::1::::<><>::
 spikes_spritesheet.png::CompressedTexture2D::3480164854048228368::1714676171::1714676210::1::::<><>::
 stair_nextlevel.png::CompressedTexture2D::3709722122744307397::1714676171::1714676210::1::::<><>::
-::res://Art/o_lobster/tiles/wall/::1714676171
+::res://Art/o_lobster/tiles/wall/::1714676211
 door_anim_opening_f0.png::CompressedTexture2D::1829065336770337087::1714676171::1714676210::1::::<><>::
 door_anim_opening_f1.png::CompressedTexture2D::6833781888420357979::1714676171::1714676211::1::::<><>::
 door_anim_opening_f2.png::CompressedTexture2D::1731448275203027694::1714676171::1714676211::1::::<><>::
@@ -197,7 +197,7 @@ wall_top_inner_right.png::CompressedTexture2D::2470093181632786185::1714676171::
 wall_top_inner_right_2.png::CompressedTexture2D::403770090178413105::1714676171::1714676211::1::::<><>::
 wall_top_left.png::CompressedTexture2D::4654523365898634084::1714676171::1714676211::1::::<><>::
 wall_top_right.png::CompressedTexture2D::5000935197897750474::1714676171::1714676211::1::::<><>::
-::res://Art/o_lobster/ui (new)/::1714676171
+::res://Art/o_lobster/ui (new)/::1714911851
 crosshair_1.png::CompressedTexture2D::627471408788109086::1714676171::1714676211::1::::<><>::
 crosshair_2.png::CompressedTexture2D::3522414750979655044::1714676171::1714676211::1::::<><>::
 crosshair_3.png::CompressedTexture2D::5303678942812797584::1714676171::1714676211::1::::<><>::
@@ -206,18 +206,28 @@ menu_button.png::CompressedTexture2D::4815197987739605817::1714676171::171467621
 menu_button_press.png::CompressedTexture2D::4719858156503756196::1714676171::1714676211::1::::<><>::
 pause_button.png::CompressedTexture2D::14846566747084739::1714676171::1714676211::1::::<><>::
 pause_button_press.png::CompressedTexture2D::8743711619984848113::1714676171::1714676211::1::::<><>::
-::res://Characters/::1714676171
-Character.gd::GDScript::-1::1714676171::0::1::::Character<>CharacterBody2D<>res://Art/o_lobster/heroes/knight/knight_idle_anim_f0.png::
-Character.tscn::PackedScene::6143127259910502315::1714676171::0::1::::<><>::res://Characters/Character.gd<>res://Characters/FSM.gd
+progress bar.png::CompressedTexture2D::5066435663099373048::1714911851::1714911851::1::::<><>::
+::res://Characters/::1715002248
+Character.gd::GDScript::-1::1714851421::0::1::::Character<>CharacterBody2D<>res://Art/o_lobster/heroes/knight/knight_idle_anim_f0.png::
+Character.tscn::PackedScene::6143127259910502315::1715002248::0::1::::<><>::res://Characters/Character.gd<>res://Characters/FSM.gd
 FSM.gd::GDScript::-1::1714676171::0::1::::FiniteStateMachine<>Node<>::
-::res://Characters/Enemies/::1714676171
-Enemy.gd::GDScript::-1::1714676171::0::1::::Enemy<>Character<>res://Art/o_lobster/enemies/goblin/goblin_idle_anim_f0.png::
+Hitbox.gd::GDScript::-1::1714835394::0::1::::Hitbox<>Area2D<>::
+::res://Characters/Enemies/::1714916509
+Enemy.gd::GDScript::-1::1714916509::0::1::::Enemy<>Character<>res://Art/o_lobster/enemies/goblin/goblin_idle_anim_f0.png::
 Enemy.tscn::PackedScene::8443889421214904313::1714676171::0::1::::<><>::uid://ctr1n5fwtmh84::::res://Characters/Character.tscn<>res://Characters/Enemies/Enemy.gd
-::res://Characters/Enemies/Bat/::1714676171
-Bat.gd::GDScript::-1::1714676171::0::1::::<>Enemy<>res://Art/o_lobster/enemies/flying creature/fly_anim_f0.png::
-Bat.tscn::PackedScene::7780314691543724611::1714676171::0::1::::<><>::uid://dskjviu6jcwxt::::res://Characters/Enemies/Enemy.tscn<>res://Characters/Enemies/Bat/BatFSM.gd<>res://Characters/Enemies/Bat/Bat.gd<>uid://xdrmsrk0jwto::::res://Art/o_lobster/enemies/flying creature/fly_anim_spritesheet.png
-BatFSM.gd::GDScript::-1::1714676171::0::1::::<>FiniteStateMachine<>::
-::res://Characters/Player/::1714676171
-Player.gd::GDScript::-1::1714676171::0::1::::<>Character<>::
-Player.tscn::PackedScene::966939245337406382::1714676171::0::1::::<><>::uid://ctr1n5fwtmh84::::res://Characters/Character.tscn<>res://Characters/Player/Player.gd<>uid://dtdks8hpgc8k6::::res://Art/o_lobster/heroes/knight/knight_idle_spritesheet.png<>res://Characters/Player/PlayerFSM.gd<>uid://c4p2dgs6unso::::res://Art/o_lobster/heroes/knight/knight_run_spritesheet.png<>uid://dpm4q11ltjmfo::::res://Art/o_lobster/heroes/knight/weapon_sword_1.png<>uid://bj86wbc6lw8en::::res://Art/o_lobster/effects (new)/slash_effect_anim_spritesheet.png
-PlayerFSM.gd::GDScript::-1::1714676171::0::1::::<>FiniteStateMachine<>::
+::res://Characters/Enemies/Bat/::1715002248
+Bat.gd::GDScript::-1::1714840695::0::1::::<>Enemy<>res://Art/o_lobster/enemies/flying creature/fly_anim_f0.png::
+Bat.tscn::PackedScene::7780314691543724611::1715002248::0::1::::<><>::uid://dskjviu6jcwxt::::res://Characters/Enemies/Enemy.tscn<>res://Characters/Enemies/Bat/BatFSM.gd<>res://Characters/Enemies/Bat/Bat.gd<>uid://xdrmsrk0jwto::::res://Art/o_lobster/enemies/flying creature/fly_anim_spritesheet.png<>uid://yrem6djedhw7::::res://Art/o_lobster/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png<>res://Characters/Hitbox.gd
+BatFSM.gd::GDScript::-1::1714837832::0::1::::<>FiniteStateMachine<>::
+::res://Characters/Player/::1715002248
+Player.gd::GDScript::-1::1714845118::0::1::::<>Character<>::
+Player.tscn::PackedScene::966939245337406382::1715002248::0::1::::<><>::uid://ctr1n5fwtmh84::::res://Characters/Character.tscn<>res://Characters/Player/Player.gd<>uid://dtdks8hpgc8k6::::res://Art/o_lobster/heroes/knight/knight_idle_spritesheet.png<>res://Characters/Player/PlayerFSM.gd<>uid://c4p2dgs6unso::::res://Art/o_lobster/heroes/knight/knight_run_spritesheet.png<>uid://yrem6djedhw7::::res://Art/o_lobster/effects (new)/enemy_afterdead_explosion_anim_spritesheet.png<>uid://dpm4q11ltjmfo::::res://Art/o_lobster/heroes/knight/weapon_sword_1.png<>uid://bj86wbc6lw8en::::res://Art/o_lobster/effects (new)/slash_effect_anim_spritesheet.png<>res://Characters/Hitbox.gd
+PlayerFSM.gd::GDScript::-1::1714845086::0::1::::<>FiniteStateMachine<>::
+::res://Items/::1715002248
+Item.gd::GDScript::-1::1714998845::0::1::::Item<>Area2D<>::
+Item.tscn::PackedScene::180253569570079572::1715002248::0::1::::<><>::res://Items/Item.gd
+::res://Items/Meat/::1715002248
+Meat.tscn::PackedScene::5256738169182849040::1715002248::0::1::::<><>::uid://ctk0q7ipsk2w::::res://Items/Item.tscn<>res://Items/Meat/Meat.gd<>uid://bw7n7a6u4aep2::::res://Art/o_lobster/props_itens/bag_coins.png
+Meat.gd::GDScript::-1::1714912917::0::1::::<>Item<>::
+::res://UI/::1714912210
+UI.gd::GDScript::-1::1714912210::0::1::::<>CanvasLayer<>::

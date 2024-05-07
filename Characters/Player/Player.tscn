@@ -533,3 +533,5 @@ frame = 1
 libraries = {
 "": SubResource("AnimationLibrary_qwguy")
 }
+
+[node name="Inventory" type="Node" parent="." index="5"]

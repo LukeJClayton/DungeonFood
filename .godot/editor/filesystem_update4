@@ -7,3 +7,11 @@ res://Characters/Enemies/Bat/Bat.tscn
 res://Characters/Enemies/Bat/BatFSM.gd
 res://Characters/Enemies/Bat/Bat.gd
 res://Characters/Player/PlayerFSM.gd
+res://UI/UI.gd
+res://Items/Item.tscn
+res://Items/Item.gd
+res://Characters/Character.tscn
+res://Items/Meat/Meat.tscn
+res://Items/Meat/Meat.gd
+res://Characters/Enemies/Enemy.gd
+res://Rooms/Room.tscn
