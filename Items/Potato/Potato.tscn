@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dbvw7g0nv1l6v"]
+
+[ext_resource type="PackedScene" uid="uid://ctk0q7ipsk2w" path="res://Items/Item.tscn" id="1_xikst"]
+[ext_resource type="Texture2D" uid="uid://drh0qg34sgk7d" path="res://Art/Food/potato.png" id="2_ip1bv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mabdq"]
+radius = 7.0
+
+[node name="Potato" instance=ExtResource("1_xikst")]
+move_speed_mult = 0.05
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ip1bv")
+
+[node name="CollisionShape2D" parent="." index="1"]
+shape = SubResource("CircleShape2D_mabdq")

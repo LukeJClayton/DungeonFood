@@ -1,0 +1,76 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyln7mjs8ajh7"]
+
+[ext_resource type="PackedScene" uid="uid://effv2dvjwkjj" path="res://UI/ItemSlot.tscn" id="2_1kl0l"]
+
+[node name="CraftingMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 480.0
+offset_bottom = 272.0
+color = Color(0.235294, 0.27451, 0.701961, 1)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 168.0
+offset_right = 435.0
+offset_bottom = 256.0
+columns = 9
+
+[node name="ItemSlot" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot2" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot3" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot4" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot5" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot6" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot7" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot8" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot9" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot10" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot11" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot12" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+custom_minimum_size = Vector2(32, 16)
+layout_mode = 2
+
+[node name="ItemSlot13" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot14" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot15" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot16" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot17" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2
+
+[node name="ItemSlot18" parent="GridContainer" instance=ExtResource("2_1kl0l")]
+layout_mode = 2

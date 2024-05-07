@@ -1,17 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://cg5nyelgvbl5q"]
+[gd_scene load_steps=4 format=3 uid="uid://cg5nyelgvbl5q"]
 
 [ext_resource type="PackedScene" uid="uid://ctk0q7ipsk2w" path="res://Items/Item.tscn" id="1_www01"]
-[ext_resource type="Script" path="res://Items/Meat/Meat.gd" id="2_3sq2t"]
-[ext_resource type="Texture2D" uid="uid://bw7n7a6u4aep2" path="res://Art/o_lobster/props_itens/bag_coins.png" id="3_7ljr2"]
+[ext_resource type="Texture2D" uid="uid://ckj0qhun2pxbb" path="res://Art/Food/meat.png" id="3_3uarl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mabdq"]
 radius = 7.0
 
 [node name="Meat" instance=ExtResource("1_www01")]
-script = ExtResource("2_3sq2t")
+attack_mult = 0.05
 
 [node name="Sprite2D" parent="." index="0"]
-texture = ExtResource("3_7ljr2")
+texture = ExtResource("3_3uarl")
 
 [node name="CollisionShape2D" parent="." index="1"]
 shape = SubResource("CircleShape2D_mabdq")

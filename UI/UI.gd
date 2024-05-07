@@ -4,13 +4,14 @@ const MIN_HEALTH: int = 23
 
 var max_hp: int = 4
 
-@onready var player: CharacterBody2D = get_parent().get_node("Player")
+@export var player: CharacterBody2D
 @onready var health_bar: TextureProgressBar = get_node("HealthBar")
 
-
-func _ready() -> void:
+func init(playerRef) -> void:
+	player = playerRef
 	max_hp = player.max_hp
 	_update_health_bar(100)
+	player.connect("hp_changed", _on_player_hp_changed)
 
 
 func _update_health_bar(new_value: int) -> void:

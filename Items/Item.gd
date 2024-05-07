@@ -1,13 +1,30 @@
+@icon("res://Art/Food/carrot.png")
+
 extends Area2D
 
 class_name Item
 
 @onready var collision_shape: CollisionShape2D = get_node("CollisionShape2D")
 
-@export var health: int = 1;
-@export var attack: int = 1;
-@export var attack_speed: int = 1;
-@export var move_speed: int = 1;
+@export var health_mult: float = 0;
+@export var attack_mult: float = 0;
+@export var attack_speed_mult: float = 0;
+@export var move_speed_mult: float = 0;
+
+func _ready() -> void:
+	var random = RandomNumberGenerator.new()
+	random.randomize()
+	var health_value: float = random.randi_range(1, get_tree().current_scene.level)
+	health_mult = 1 + (health_mult * health_value)
+	
+	var attack_value: float = random.randi_range(1, get_tree().current_scene.level)
+	attack_mult = 1 + (attack_mult * attack_value)
+	
+	var attack_speed_value: float = random.randi_range(1, get_tree().current_scene.level)
+	attack_speed_mult = 1 + (attack_speed_mult * attack_speed_value)
+	
+	var move_speed_value: float = random.randi_range(1, get_tree().current_scene.level)
+	move_speed_mult = 1 + (move_speed_mult * move_speed_value)
 
 func _on_item_body_entered(player: CharacterBody2D) -> void:
 	collision_shape.set_deferred("disabled", true)

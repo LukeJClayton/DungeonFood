@@ -4,10 +4,12 @@ extends Character
 class_name Enemy
 
 const ITEM_SCENES: Dictionary = {
+	"Potato": preload("res://Items/Potato/Potato.tscn"),
+	"Carrot": preload("res://Items/Carrot/Carrot.tscn"),
 	"Meat": preload("res://Items/Meat/Meat.tscn")
 }
 
-@onready var player: CharacterBody2D = get_tree().current_scene.get_node("Player")
+@onready var player: CharacterBody2D = get_tree().current_scene.player
 @onready var path_timer: Timer = get_node("PathTimer")
 @onready var navigation_agent: NavigationAgent2D = get_node("NavigationAgent2D")
 
