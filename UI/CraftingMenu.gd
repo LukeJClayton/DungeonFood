@@ -1,13 +1,11 @@
-extends CanvasLayer
-
-const ITEM_SLOT_SCENE: PackedScene = preload("res://UI/ItemSlot.tscn")
+extends Control
 
 func init(player: CharacterBody2D) -> void:
 	var inventory: Node = player.get_node("Inventory")
-	var inventory_row = get_node("Items")
-	var items: Array = inventory.get_children()
-	for item in items:
-		var new_inventory_item = ITEM_SLOT_SCENE.instantiate()
-		new_inventory_item.init(item)
-		inventory_row.add_child(new_inventory_item)
-	print(inventory_row.get_children())
+	var inventory_grid = get_node("GridContainer")
+	var items: Array[Node] = inventory.get_children()
+	var slots: Array[Node] = inventory_grid.get_children()
+	if items.size() > 0:
+		for i in slots.size():
+			if items.size() > i and items[i]:
+				slots[i].init(items[i])

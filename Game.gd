@@ -35,5 +35,5 @@ func end_level() -> void:
 	ui.hide()
 	var menu = crafting_menu.instantiate()
 	call_deferred("add_child", menu)
-	#menu.init(player)
+	menu.init(player)
 	#pass

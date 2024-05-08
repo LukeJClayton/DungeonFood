@@ -1,11 +1,12 @@
 [gd_scene load_steps=2 format=3 uid="uid://effv2dvjwkjj"]
 
-[ext_resource type="Texture2D" uid="uid://dw5k36whd5lwr" path="res://icon.svg" id="1_lx6mj"]
+[ext_resource type="Script" path="res://UI/ItemSlot.gd" id="1_eijml"]
 
 [node name="ItemSlot" type="Panel"]
 custom_minimum_size = Vector2(40, 40)
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_eijml")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
@@ -13,6 +14,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="ItemDisplay" type="Sprite2D" parent="."]
-position = Vector2(3, 3)
-texture = ExtResource("1_lx6mj")
+scale = Vector2(2.5, 2.5)
 centered = false
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
