@@ -6,6 +6,7 @@ class_name Item
 
 @onready var collision_shape: CollisionShape2D = get_node("CollisionShape2D")
 
+@export var display_name: String = 'Item';
 @export var health_mult: float = 0;
 @export var attack_mult: float = 0;
 @export var attack_speed_mult: float = 0;

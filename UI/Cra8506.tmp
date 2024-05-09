@@ -97,5 +97,3 @@ offset_right = 296.0
 offset_bottom = 159.0
 disabled = true
 text = "Cook"
-
-[connection signal="pressed" from="CookButton" to="." method="_on_cook_button_pressed"]

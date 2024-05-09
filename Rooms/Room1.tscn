@@ -70,7 +70,6 @@ _data = {
 [node name="Room" type="Node2D"]
 z_index = 1
 script = ExtResource("1_mo01v")
-waves = 1
 
 [node name="Map" type="TileMap" parent="."]
 tile_set = ExtResource("2_0uryy")

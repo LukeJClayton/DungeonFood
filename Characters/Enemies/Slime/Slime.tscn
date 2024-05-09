@@ -395,10 +395,10 @@ radius = 7.0
 script = ExtResource("2_3bm1a")
 dropItem = true
 itemType = "Carrot"
-max_hp = 4
-hp = 4
+max_hp = 4.0
+hp = 4.0
 acceleration = 10
-max_speed = 30
+max_speed = 40.0
 
 [node name="FiniteStateMachine" parent="." index="0"]
 script = ExtResource("3_1xy65")

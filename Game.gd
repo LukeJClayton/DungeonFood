@@ -7,13 +7,24 @@ extends Node2D
 signal level_changed(new_level)
 
 var current_room;
-var room_list = [preload("res://Rooms/Room1.tscn")];
+var room_list = [preload("res://Rooms/Room1.tscn"),preload("res://Rooms/Room2.tscn")];
 var crafting_menu = preload("res://UI/CraftingMenu.tscn")
 
 func _ready() -> void:
 	player = preload("res://Characters/Player/Player.tscn").instantiate()
 	ui.init(player)
 	change_level()
+	
+func next_level() -> void:
+	var inventory = player.get_node("Inventory")
+	player.set_hp(player.max_hp)
+	for child in inventory.get_children():
+		inventory.remove_child(child)
+		child.queue_free()
+	set_level(level + 1)
+	change_level()
+	ui.init(player)
+	ui.show()
 	
 func change_level() -> void:
 	if current_room:
@@ -35,5 +46,5 @@ func end_level() -> void:
 	ui.hide()
 	var menu = crafting_menu.instantiate()
 	call_deferred("add_child", menu)
-	menu.init(player)
-	#pass
+	menu.init(player, player.get_node('Inventory').duplicate())
+	menu.connect("end_level", next_level)

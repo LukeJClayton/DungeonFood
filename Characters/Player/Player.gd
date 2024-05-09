@@ -1,7 +1,7 @@
 extends Character
 
 @onready var weapon: Node2D = get_node("Weapon")
-@onready var weapon_hitbox: Area2D = get_node("Weapon/WeaponPivot/WeaponSprite/Hitbox")
+@onready var weapon_hitbox: Hitbox = get_node("Weapon/WeaponPivot/WeaponSprite/Hitbox")
 @onready var weapon_animation_player: AnimationPlayer = weapon.get_node("WeaponAnimationPlayer")
 
 func _process(_delta: float) -> void:
@@ -18,7 +18,6 @@ func _process(_delta: float) -> void:
 		weapon.scale.y = -1
 	elif weapon.scale.y == -1 and mouse_direction.x > 0:
 		weapon.scale.y = 1
-		
 	
 func get_input() -> void:
 	mov_direction = Vector2.ZERO
@@ -32,4 +31,7 @@ func get_input() -> void:
 		mov_direction += Vector2.UP
 		
 	if Input.is_action_just_pressed("attack_primary") and not weapon_animation_player.is_playing():
-		weapon_animation_player.play("attack")
+		weapon_animation_player.play("attack", -1, attack_speed)
+
+func _ready():
+	weapon_hitbox.damage = damage

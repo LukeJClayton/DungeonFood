@@ -484,8 +484,8 @@ _data = {
 collision_layer = 2
 collision_mask = 5
 script = ExtResource("2_bhbo5")
-max_hp = 4
-hp = 4
+max_hp = 4.0
+hp = 4.0
 
 [node name="FiniteStateMachine" parent="." index="0"]
 script = ExtResource("3_2ue8a")

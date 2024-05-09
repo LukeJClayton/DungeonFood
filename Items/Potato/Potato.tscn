@@ -7,6 +7,7 @@
 radius = 7.0
 
 [node name="Potato" instance=ExtResource("1_xikst")]
+display_name = "Potato"
 move_speed_mult = 0.05
 
 [node name="Sprite2D" parent="." index="0"]

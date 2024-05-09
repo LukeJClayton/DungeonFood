@@ -50,4 +50,5 @@ func enable_exit() -> void:
 
 func _on_exit_body_entered(_body: CharacterBody2D) -> void:
 	emit_signal("end_level")
+	get_parent().player = _body.duplicate()
 	queue_free()

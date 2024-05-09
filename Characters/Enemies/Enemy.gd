@@ -10,6 +10,7 @@ const ITEM_SCENES: Dictionary = {
 }
 
 @onready var player: CharacterBody2D = get_tree().current_scene.player
+@onready var level: int = get_tree().current_scene.level
 @onready var path_timer: Timer = get_node("PathTimer")
 @onready var navigation_agent: NavigationAgent2D = get_node("NavigationAgent2D")
 
@@ -18,7 +19,8 @@ const ITEM_SCENES: Dictionary = {
 
 func _ready() -> void:
 	var __ = connect("tree_exited", Callable(get_parent(), "_on_enemy_killed"))
-
+	max_hp = max_hp + ((max_hp/4) * level)
+	hp = max_hp
 
 func chase() -> void:
 	if not navigation_agent.is_target_reached():
